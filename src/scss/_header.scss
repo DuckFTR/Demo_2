@@ -1,0 +1,36 @@
+.header {
+
+  width: 60%;
+
+  &__heading {
+    font-size: 48px;
+    color: var(--color-darkblue);
+    font-weight: 500;
+  }
+
+  &__text {
+    line-height: 42px;
+  }
+
+  &__logo {
+    margin-top: 150px;
+  }
+
+  &__buttons {
+    height: 50px;
+    width: 150px;
+    margin-top: 63px;
+    margin-bottom: 75px;
+    border: none;
+    color: #F9B640;
+  }
+
+  &__buttons:hover {
+    background-color: #F9B640;
+    color: var(--color-white);
+  }
+
+  &__buttons:last-child {
+    margin-left: 38px;
+  }
+}

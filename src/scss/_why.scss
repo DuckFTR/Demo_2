@@ -1,0 +1,25 @@
+.why {
+
+  background-color: var(--color-blue);
+  background-image: url("/src/images/why.png");
+  background-position: left;
+
+  &__content {
+    margin-left: 178px;
+    color: var(--color-white);
+    block-size: 555px;
+  }
+
+  &__header {
+    font-size: 36px;
+    margin-top: 151px;
+    margin-bottom: 75px;
+  }
+
+  &__text {
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 95px;
+  }
+
+}

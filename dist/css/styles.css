@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+:root {
+  --color-blue: #62D0DF;
+  --color-darkblue: #22356F;
+  --color-black: #292929;
+  --color-white: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: var(--color-darkblue);
+}
+
+.container {
+  margin-left: 178px;
+  display: block;
+  margin-right: auto;
+}
+.container .landing {
+  background-image: url("/src/images/contact_us.png");
+  background-position: right;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 27px;
+}
+.top__logo {
+  color: var(--color-blue);
+  font-size: 24px;
+  font-weight: 600;
+}
+.top__button {
+  height: 50px;
+  width: 150px;
+  background-color: #62D0DF;
+  color: var(--color-white);
+  border-radius: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.menu__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.menu__link {
+  text-decoration: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: var(--color-darkblue);
+  font-size: 14px;
+  font-weight: 200;
+  padding-bottom: 30px;
+}
+.menu__link:hover {
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.header {
+  width: 60%;
+}
+.header__heading {
+  font-size: 48px;
+  color: var(--color-darkblue);
+  font-weight: 500;
+}
+.header__text {
+  line-height: 42px;
+}
+.header__logo {
+  margin-top: 150px;
+}
+.header__buttons {
+  height: 50px;
+  width: 150px;
+  margin-top: 63px;
+  margin-bottom: 75px;
+  border: none;
+  color: #F9B640;
+}
+.header__buttons:hover {
+  background-color: #F9B640;
+  color: var(--color-white);
+}
+.header__buttons:last-child {
+  margin-left: 38px;
+}
+
+.why {
+  background-color: var(--color-blue);
+  background-image: url("/src/images/why.png");
+  background-position: left;
+}
+.why__content {
+  margin-left: 178px;
+  color: var(--color-white);
+  block-size: 555px;
+}
+.why__header {
+  font-size: 36px;
+  margin-top: 151px;
+  margin-bottom: 75px;
+}
+.why__text {
+  font-size: 24px;
+  line-height: 35px;
+  margin-bottom: 95px;
+}

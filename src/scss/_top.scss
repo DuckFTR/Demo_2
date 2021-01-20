@@ -1,0 +1,25 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 27px;
+
+  &__logo {
+    color: var(--color-blue);
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+
+  &__button {
+    height: 50px;
+    width: 150px;
+    background-color: #62D0DF;
+    color: var(--color-white);
+    border-radius: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+}
+
+
