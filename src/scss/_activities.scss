@@ -1,0 +1,89 @@
+.activities {
+
+  display: flex;
+  flex-flow: row wrap;
+
+
+  &__block {
+    height: 480px;
+    width: calc(100% / 3);
+    position: relative;
+
+    &__darkblue {
+
+      background-color: var(--color-darkblue);
+
+
+    }
+
+    &__blue {
+      background-color: #0052C1;
+    }
+
+    &__green {
+      background: #C4E769;
+    }
+
+    &__lightblue {
+      background-color: var(--color-blue);
+    }
+
+    &__grey {
+      background-color: #DEE1FF;
+    }
+
+    &__purple {
+      background-color: #8F00FF;
+    }
+  }
+}
+
+.block-image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  transition: all 0.5s ease-out;
+
+
+  &__nutrition {
+    background-image: url("../images/nutrition.png");
+    opacity: 0;
+
+  }
+  &__aerobics {
+    background-image: url("../images/nutrition.png");
+    opacity: 0;
+  }
+
+  &__crossfit {
+    background-image: url("../images/nutrition.png");
+    opacity: 0;
+  }
+
+  &__gymnastics {
+    background-image: url("../images/nutrition.png");
+    opacity: 0;
+  }
+
+  &__mental {
+    background-image: url("../images/nutrition.png");
+    opacity: 0;
+  }
+
+  &__physical {
+    background-image: url("../images/nutrition.png");
+    opacity: 0;
+  }
+}
+
+
+.block-image:hover {
+  opacity: 1;
+}
+
+

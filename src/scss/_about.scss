@@ -1,13 +1,81 @@
 .about-us {
-  &__header {
+  padding-top: 150px;
 
+  &__header {
+    text-transform: uppercase;
+    margin-left: 106px;
+    margin-right: 225px;
+    font-size: 16px;
+    display: inline;
+    float: left;
   }
 
   &__text {
-
+    width: 600px;
+    line-height: 34px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   &__footer {
-    
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    opacity: 50%;
+    margin-bottom: 24px;
+    margin-top: 76px;
+
+    text-align: center;
+  }
+
+  &__blocks {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
   }
 }
+
+.block {
+  height: 360px;
+  width: 25%;
+  margin-bottom: 150px;
+
+  &__lifting {
+    background-color: #FFE2DE;
+  }
+
+  &__running {
+    background-color: #C4E769;
+  }
+
+  &__pumping {
+    background-color: #62D0DF;
+
+    &__blue {
+      background-color: #0052C1;
+    }
+  }
+
+  &__text {
+position: absolute;
+    width: auto;
+    margin-top: 72px;
+    padding-top: 23px;
+    margin-left: 54px;
+    margin-right: 50px;
+    font-size: 32px;
+    line-height: 34px;
+    border-top: 1px #FFFFFF solid;
+    color: var(--color-white);
+z-index: 2;
+
+  }
+
+  &__text img {
+    margin-right: 15px;
+    margin-bottom: 5px;
+
+  }
+}
+
+

@@ -1,25 +1,30 @@
 .why {
 
   background-color: var(--color-blue);
-  background-image: url("/src/images/why.png");
-  background-position: left;
+  background-image: url("../images/why.png");
+  background-position: right;
+  background-repeat: no-repeat;
 
   &__content {
-    margin-left: 178px;
     color: var(--color-white);
-    block-size: 555px;
+
+    height: 100%;
   }
 
   &__header {
     font-size: 36px;
-    margin-top: 151px;
-    margin-bottom: 75px;
+    font-weight: 600;
+    padding-top: 110px;
+    margin-left: 178px;
   }
 
   &__text {
+    margin-left: 178px;
     font-size: 24px;
     line-height: 35px;
-    margin-bottom: 95px;
+    padding-top: 75px;
+    padding-bottom: 95px;
+    width: 33%;
   }
 
 }

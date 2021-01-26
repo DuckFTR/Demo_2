@@ -6,19 +6,26 @@
 
   &__logo {
     color: var(--color-blue);
-    font-size: 24px;
+
     font-weight: 600;
+
   }
 
+  &__logo h2 {
+    margin-left: 171px;
+    font-size: 24px;
+  }
 
   &__button {
     height: 50px;
     width: 150px;
     background-color: #62D0DF;
     color: var(--color-white);
+    border: none;
     border-radius: 20px;
     font-size: 14px;
     text-transform: uppercase;
+    margin-right: 131px;
   }
 }
 

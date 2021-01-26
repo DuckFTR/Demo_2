@@ -1,0 +1,32 @@
+.description {
+  display: flex;
+  flex-flow: row wrap ;
+  justify-content: space-evenly;
+
+&__block {
+  width: calc(90%/3);
+align-items: center;
+
+}
+
+}
+
+.description-content {
+
+
+
+&__header {
+  margin:70px auto 28px auto;
+  font-size: 28px;
+  width: 250px;
+}
+
+  &__text {
+    font-size: 16px;
+    line-height: 25px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+}

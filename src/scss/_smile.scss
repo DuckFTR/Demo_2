@@ -1,0 +1,47 @@
+.smile {
+  background-color: var(--color-darkblue);
+  background-image: url("../images/smile.png");
+  background-repeat: no-repeat;
+  background-position: right;
+
+
+  &__flex {
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+  }
+}
+
+.ready {
+margin-left: 180px;
+  padding-top:80px;
+  color: #FFFFFF;
+  margin-right: 203px;
+
+  &__top {
+    font-size: 16px;
+    line-height: 12px;
+    margin-bottom: 230px;
+  }
+
+  &__header {
+    font-size: 64px;
+    line-height: 94px;
+    margin-bottom: 75px;
+  }
+
+  &__content {
+    font-size: 36px;
+    line-height: 53px;
+    margin-bottom: 80px;
+    width: 580px;
+  }
+
+  &__footer {
+    font-size: 16px;
+    line-height: 23px;
+    color: var(--color-blue);
+    margin-bottom: 50px;
+  }
+
+}

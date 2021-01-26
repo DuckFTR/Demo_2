@@ -8,16 +8,16 @@
 
   &__link {
     text-decoration: none;
-    padding-left:25px;
-    padding-right:25px;
+    margin-left:25px;
+    margin-right:25px;
     color: var(--color-darkblue);
     font-size: 14px;
     font-weight: 200;
-    padding-bottom: 30px;
-  }
+    padding-bottom: 10px;
+      }
 
   &__link:hover {
-        text-decoration: underline;
+    border-bottom: 3px #22356F solid;
     font-weight:500 ;
   }
 

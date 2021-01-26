@@ -15,18 +15,22 @@ body {
   color: var(--color-darkblue);
 }
 
-.container {
-  margin-left: 178px;
-  display: block;
-  margin-right: auto;
-
 .landing {
-background-image: url("/src/images/contact_us.png");
-    background-position: right;
+  background-image: url('../images/contact_us.png'), url('../images/rectangle.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-color: #F4F9E2;
 }
-}
+
 
 @import 'top';
 @import "menu";
 @import "header";
 @import "why";
+@import "about";
+@import "activities";
+@import "description";
+@import "also";
+@import "smile";
+@import "info";
+@import "footer";

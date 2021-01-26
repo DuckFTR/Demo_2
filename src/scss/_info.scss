@@ -1,0 +1,42 @@
+.info {
+  background-position: left;
+  background-image: url("../images/bottom_image.png");
+  background-repeat: no-repeat;
+
+&__flex {
+  display: flex;
+  flex-flow: row;
+  margin-left: 630px;
+  justify-content: space-evenly;
+}
+}
+
+.info-block {
+  display: flex;
+  flex-flow: column;
+  justify-content: left;
+
+  &__header {
+    font-size: 14px;
+    line-height: 11px;
+    margin-top: 98px;
+    margin-bottom: 36px;
+  }
+
+  &__content {
+    font-size: 14px;
+    line-height: 23px;
+    width: 210px;
+    color: rgba(34, 53, 111, 0.5);
+    margin-bottom: 100px;
+  }
+
+  &__content a {
+    color: #62D0DF;
+  }
+
+  &__content a:active {
+    color: #62D0DF;
+  }
+
+}

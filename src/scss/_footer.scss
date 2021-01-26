@@ -1,0 +1,14 @@
+.footer {
+  background-color: var(--color-blue);
+
+  &__text {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 120px;
+    font-size: 14px;
+    line-height: 11px;
+    color: #FFFFFF;
+    font-weight: 600;
+  }
+
+}

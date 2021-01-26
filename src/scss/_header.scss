@@ -1,36 +1,48 @@
 .header {
 
-  width: 60%;
+  display: flex;
+  flex-direction: column;
 
-  &__heading {
+  &__sizing {
+
+    margin-left: 171px;
+  }
+
+
+  &__heading h1 {
     font-size: 48px;
     color: var(--color-darkblue);
     font-weight: 500;
+    width: 500px;
   }
 
   &__text {
-    line-height: 42px;
+    line-height: 43px;
+    width: 500px;
+
   }
 
   &__logo {
     margin-top: 150px;
+
   }
 
-  &__buttons {
+
+  &__buttons button {
     height: 50px;
     width: 150px;
     margin-top: 63px;
     margin-bottom: 75px;
+    background-color: transparent;
     border: none;
+    font-size: 16px;
+    font-weight: 600;
     color: #F9B640;
   }
 
-  &__buttons:hover {
+  &__buttons button:hover {
     background-color: #F9B640;
     color: var(--color-white);
-  }
-
-  &__buttons:last-child {
-    margin-left: 38px;
+    transition: 1s;
   }
 }
