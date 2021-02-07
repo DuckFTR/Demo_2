@@ -1,18 +1,22 @@
 .top {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding-top: 27px;
 
+  @media (max-width: $media-mobile) {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
   &__logo {
     color: var(--color-blue);
-
     font-weight: 600;
-
   }
 
   &__logo h2 {
-    margin-left: 171px;
     font-size: 24px;
   }
 
@@ -25,7 +29,6 @@
     border-radius: 20px;
     font-size: 14px;
     text-transform: uppercase;
-    margin-right: 131px;
   }
 }
 

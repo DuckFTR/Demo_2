@@ -9,4 +9,4 @@ mix.copyDirectory('src/images', 'dist/images');
 //дополнение по url
 mix.sass('src/app.scss', 'dist').options( {
     processCssUrls:false
-    });
+});

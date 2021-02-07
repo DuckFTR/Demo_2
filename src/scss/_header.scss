@@ -2,31 +2,26 @@
 
   display: flex;
   flex-direction: column;
+  width: 50%;
 
-  &__sizing {
-
-    margin-left: 171px;
+  @media (max-width: $media-mobile ) {
+    width: 100%;
+    text-align: center;
   }
-
 
   &__heading h1 {
     font-size: 48px;
     color: var(--color-darkblue);
     font-weight: 500;
-    width: 500px;
   }
 
   &__text {
     line-height: 43px;
-    width: 500px;
-
   }
 
   &__logo {
     margin-top: 150px;
-
   }
-
 
   &__buttons button {
     height: 50px;

@@ -1,38 +1,44 @@
 .activities {
-
   display: flex;
   flex-flow: row wrap;
 
+  @media (max-width: $media-mobile) {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 
   &__block {
     height: 480px;
     width: calc(100% / 3);
     position: relative;
 
-    &__darkblue {
-
-      background-color: var(--color-darkblue);
-
-
+    @media (max-width: $media-mobile) {
+      width: 100%;
     }
 
-    &__blue {
+    &-darkblue {
+      background-color: var(--color-darkblue);
+    }
+
+    &-blue {
       background-color: #0052C1;
     }
 
-    &__green {
+    &-green {
       background: #C4E769;
     }
 
-    &__lightblue {
+    &-lightblue {
       background-color: var(--color-blue);
     }
 
-    &__grey {
+    &-grey {
       background-color: #DEE1FF;
     }
 
-    &__purple {
+    &-purple {
       background-color: #8F00FF;
     }
   }
@@ -47,7 +53,9 @@
   overflow: hidden;
   margin: 0;
   padding: 0;
+  top: 0;
   transition: all 0.5s ease-out;
+  z-index: 1;
 
 
   &__nutrition {
@@ -55,6 +63,7 @@
     opacity: 0;
 
   }
+
   &__aerobics {
     background-image: url("../images/nutrition.png");
     opacity: 0;

@@ -3,12 +3,17 @@
   background-image: url("../images/bottom_image.png");
   background-repeat: no-repeat;
 
-&__flex {
-  display: flex;
-  flex-flow: row;
-  margin-left: 630px;
-  justify-content: space-evenly;
-}
+  &__flex {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+
+    @media (max-width: $media-mobile) {
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
 }
 
 .info-block {

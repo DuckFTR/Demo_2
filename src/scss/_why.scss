@@ -5,26 +5,34 @@
   background-position: right;
   background-repeat: no-repeat;
 
+
+  @media (max-width: $media-mobile ) {
+    width: 100%;
+    text-align: center;
+  }
+
   &__content {
     color: var(--color-white);
 
-    height: 100%;
   }
 
   &__header {
     font-size: 36px;
     font-weight: 600;
     padding-top: 110px;
-    margin-left: 178px;
+
   }
 
   &__text {
-    margin-left: 178px;
     font-size: 24px;
     line-height: 35px;
     padding-top: 75px;
     padding-bottom: 95px;
-    width: 33%;
-  }
+    width: 55%;
 
+    @media (max-width: $media-mobile ) {
+      width: 100%;
+      text-align: center;
+    }
+  }
 }
