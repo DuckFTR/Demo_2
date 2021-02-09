@@ -3,12 +3,16 @@
   background-image: url("../images/smile.png");
   background-repeat: no-repeat;
   background-position: right;
+  background-size: contain;
 
   &__flex {
     display: flex;
     flex-flow: column;
-    justify-content: left;
+    align-content: space-evenly;
+    justify-content: space-evenly;
     width: 50%;
+    height: 100%;
+
 
     @media (max-width: $media-mobile) {
       width: 100%;
@@ -19,13 +23,15 @@
 }
 
 .ready {
-  padding-top: 80px;
+
   color: #FFFFFF;
 
   &__top {
     font-size: 16px;
     line-height: 12px;
-    margin-bottom: 230px;
+    padding-top: 120px;
+    flex-grow: 1;
+
 
     @media (max-width: $media-mobile) {
       background-color: rgba(34, 53, 111, 0.5);
@@ -37,7 +43,9 @@
   &__header {
     font-size: 64px;
     line-height: 94px;
-    margin-bottom: 75px;
+    flex-grow: 1;
+    padding-top: 50px;
+
 
     @media (max-width: $media-mobile) {
       background-color: rgba(34, 53, 111, 0.5);
@@ -49,7 +57,9 @@
   &__content {
     font-size: 36px;
     line-height: 53px;
-    margin-bottom: 80px;
+    flex-basis: 50%;
+    padding-top: 100px;
+
 
     @media (max-width: $media-mobile) {
       background-color: rgba(34, 53, 111, 0.5);
@@ -62,6 +72,7 @@
     font-size: 16px;
     line-height: 23px;
     color: var(--color-blue);
+    padding-top: 80px;
     margin-bottom: 50px;
   }
 }

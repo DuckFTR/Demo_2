@@ -23,19 +23,17 @@
     margin-top: 150px;
   }
 
-  &__buttons button {
-    height: 50px;
-    width: 150px;
-    margin-top: 63px;
-    margin-bottom: 75px;
+  &__buttons {
+    padding: 10px 25px;
     background-color: transparent;
     border: none;
     font-size: 16px;
     font-weight: 600;
     color: #F9B640;
+    margin: 50px 0;
   }
 
-  &__buttons button:hover {
+  &__buttons:hover {
     background-color: #F9B640;
     color: var(--color-white);
     transition: 1s;
